@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+  <!-- created by Cole Jasmin --> 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d0b02;
+            color: #e7e7e7;
+        }
+        
+        .menu {
+            width: 100%;
+            background-color: #141414;
+            padding: 30px 5px;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .my-logo {
+            float: left;
+        }
+        
+        .menu-options {
+            float: right;
+        }
+        
+        .menu-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #e2c376;
+            font-weight: bold;
+            padding: 0 15px;
+        }
+        
+        h1 {
+            color: #e2c376;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #e2c376;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        
+        .page-part {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .intro-area {
+            padding-top: 100px;
+        }
+        
+        .intro-text {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        
+        .contact-info {
+            color: #e2c376;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 30px;
+        }
+        
+        .work-example {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        
+        .work-picture {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .work-name {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        .service-box {
+            background-color: #a89054;
+            padding: 30px;
+            margin-bottom: 20px;
+            color: #0d0b02;
+        }
+        
+        .service-name {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #0d0b02;
+        }
+        
+        .contact-title {
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+        
+        .email-link {
+            font-size: 1.5em;
+            color: #e2c376;
+            text-decoration: none;
+        }
+        
+        .footer-area {
+            padding: 30px;
+            background-color: #141414;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .my-logo, .menu-options {
+                float: none;
+                text-align: center;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="menu">
+        <a href="#welcome" class="my-logo">
+            <img src="portfolio logo.png" alt="Cole Jasmin Logo" width="50">
+        </a>
+        <div class="menu-options">
+            <a href="#my-projects" class="menu-button">Work</a>
+            <a href="#my-services" class="menu-button">Services</a>
+            <a href="#contact-me" class="menu-button"
+            >Contact</a>
+        </div>
+    </div>
+
+    <!-- Home Page -->
+    <section id="welcome" class="page-part intro-area">
+        <h1>Cole Jasmin</h1>
+        <p class="intro-text">
+            Global Business and Digital Arts student with expertise in digital marketing, SEO, and graphic design. 
+            Skilled in tools such as Google Ads and Adobe Creative Suite, I create impactful, brand-aligned visuals and campaigns.
+        </p>
+        <div>
+            <a href="mailto:colejasmin1@gmail.com" class="contact-info">colejasmin1@gmail.com</a>
+            <a href="tel:6479804890" class="contact-info">(647) - 980 - 4890</a>
+        </div>
+    </section>
+
+    <!-- Work Page -->
+    <section id="my-projects" class="page-part">
+        <h2>Featured Projects</h2>
+        <p>My design approach prioritizes the needs and preferences of users. I focus on creating products that enhance the user experience.</p>
+        
+        <div class="work-example">
+            <img src="photo project.png" alt="Photography Project" width="300">
+            <h3 class="work-name">Photography</h3>
+            <p>Proficient in photography, I capture high-quality images that enhance digital content and align with brand aesthetics.</p>
+        </div>
+        
+        <div class="work-example">
+            <img src="rebrand project.png" alt="Rebranding Project" width="300">
+            <h3 class="work-name">Rebranding</h3>
+            <p>Experienced in rebranding, I develop cohesive brand identities that elevate visual appeal and strengthen market positioning.</p>
+        </div>
+        
+      <!-- Avantis logo contains external link to their website -->
+        <div class="work-example">
+            <a href="https://www.avantisai.com/">
+              <img  src="SEO work.png" alt="Avantis Analytics Logo">
+          </a>
+            <h3 class="work-name">SEO &amp; Google Ads</h3>
+            <p>Skilled in SEO and Google Ads campaigns, I drive targeted traffic and optimize online visibility.</p>
+        </div>
+        
+        <div class="work-example">
+            <img src="logo project.png" alt="Logo Design Project" width="300">
+            <h3 class="work-name">Logo Design</h3>
+            <p>Proficient in logo design, I create distinctive, memorable logos that reflect brand identity.</p>
+        </div>
+    </section>
+
+    <!-- Services Page -->
+    <section id="my-services" class="page-part">
+        <h2>Services Offered</h2>
+        
+        
+        <div class="service-box">
+            <h3 class="service-name">User-Centered Design</h3>
+            <p>My design approach prioritizes the needs and preferences of users. I focus on creating products that enhance the user experience.</p>
+        </div>
+        
+        <div class="service-box">
+            <h3 class="service-name">Prototyping and Wireframing</h3>
+            <p>I am adept at quickly turning ideas into tangible prototypes and wireframes. These tools help me visualize concepts and test designs.</p>
+        </div>
+        
+        <div class="service-box">
+            <h3 class="service-name">Visual Design Expertise</h3>
+            <p>I have a keen eye for aesthetics and a strong grasp of visual design principles. I am skilled in typography, color theory, and layout.</p>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact-me" class="page-part">
+        <h2 class="contact-title">Let's Talk</h2>
+        <a href="mailto:colejasmin1@gmail.com" class="email-link">colejasmin1@gmail.com</a>
+    </section>
+
+
+    <div class="footer-area">
+        <p>
+          © 2025 Cole Jasmin. All rights reserved
+      </p>
+    </div>
+</body>
+</html>
